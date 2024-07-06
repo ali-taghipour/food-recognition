@@ -85,7 +85,7 @@ def move_splitted_images(root_folder,assembled_directory):
 if __name__ == "__main__":
     root_directory = "E:/Projects/food-recognition/UECFOOD256"  # Replace with the actual path
     assembled_directory = "E:/Projects/food-recognition/UECFOOD256_assembled"
-   # split_images(root_directory)
+    split_images(root_directory)
     move_splitted_images(root_directory,assembled_directory)
 
 
